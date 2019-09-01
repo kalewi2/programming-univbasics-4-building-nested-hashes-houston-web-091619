@@ -18,9 +18,8 @@ def monopoly_with_fourth_tier
   monopoly = {
     :railroads => {
       pieces: 4, 
-      :rent_in_dollars => {
-      one: "one", two: "two", three: "three", four: "four"
-      }
+      rent_in_dollars: [one: "one", two: "two", three: "three", four: "four"]
+      
     }
   }
 end
